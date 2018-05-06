@@ -14,6 +14,7 @@
 	<script type="text/javascript" src="js/controllers/dashboard-controller.js"></script>
 
 	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://rawgithub.com/pablojim/highcharts-ng/master/src/highcharts-ng.js"></script>
 
 </head>
 <body ng-controller="DashboardCtrl as vm">
@@ -55,7 +56,8 @@
 					
 				</div>
 				<div class="bloco right card-chart">
-					<div id="containerHC">Placeholder for chart</div>
+					<!-- <div id="containerHC">Placeholder for chart</div> -->
+					<highchart id="chart1" config="vm.chartConfig"></highchart>
 				</div>
 			</div>
 		</div>

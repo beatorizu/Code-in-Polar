@@ -154,6 +154,11 @@ body {
   margin-bottom: 50px;
 }
 
+highchart {
+  width: 100%;
+  display: block;
+}
+
 .icon {
 	vertical-align: middle;
 	float: left;

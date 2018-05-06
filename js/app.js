@@ -1,5 +1,6 @@
 angular.module('happyWorkspace', [
-  'happyWorkspace.controllers'
+  'happyWorkspace.controllers',
+  'highcharts-ng'
   ]);
  
 angular.module('happyWorkspace.controllers',[]);
