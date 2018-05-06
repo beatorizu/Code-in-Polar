@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="happyWorkspace">
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Code in Polar</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/rh.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script type="text/javascript" src="js/style.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/controllers/dashboard-controller.js"></script>
+
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+
+</head>
+<body ng-controller="DashboardCtrl as vm">
+		<header class="header-paralax">
+		<div class="efeito">
+ 				<figure>
+      				<img width="100%" class="img-efeito" src="img/banner-1.png">
+  				</figure>
+		</div>
+    		<h1>Happy workplace</h1>
+  		</header>
+  		<div id="navbar" class="fixed-top">
+      			<a href="#home">Home</a>
+        		<a href="#news">Relatório</a>
+        		<a href="#contact">Contact</a>
+        		<span style="float: right; margin-right: 15px;"><a href="#signout">Sign out</a></span>
+    	</div>
+		<div class="container">	
+			<h2 class="title">Recursos Humanos</h2>
+			<div class="container-bloco">
+				<div class="bloco card-info quebra">
+					<img src="https://png.icons8.com/color/50/000000/user-female-circle.png">
+					<p>Nome:</p>
+					<p>E-mail:</p>
+				</div>
+				<div class="bloco card-info quebra">
+					<img src="https://png.icons8.com/color/50/000000/user.png">
+					<p>Nome:</p>
+					<p>E-mail:</p>
+				</div>	
+				<div class="bloco card-info quebra">
+					<img src="https://png.icons8.com/color/50/000000/user-female-circle.png">
+					<p>Nome:</p>
+					<p>E-mail:</p>
+				</div>	
+				<div class="bloco card-info quebra">
+					<img src="https://png.icons8.com/color/50/000000/user.png">
+					<p>Nome:</p>
+					<p>E-mail:</p>
+				</div>			
+			</div>
+		</div>
+	</body>
+</html>
