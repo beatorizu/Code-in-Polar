@@ -9,22 +9,40 @@ body {
 	margin: auto;
 	}
 
-.vermelho {
-	background-color: red;
+.bloco {
+	background-color: #46494C;
 	width: 30%;
 	height: 150px;
-	display: inline-flex;
+	margin: 5px;
+	padding: 15px;
 	}
 
 .left {
-	margin-left: 4.5%;
+	margin-left: 5%;
 }	
 
 .right {
-	margin-right: 4.5%;
+	margin-right: 5%;
 }
 
-.azul {
-	background-color: blue;
-	margin: 0 auto;
+.container-bloco {
+	background-color: #E0E0E0;
+	margin: auto;
+	padding: 30px;
+	display: inline-flex;
 	}
+
+.icon {
+	vertical-align: middle;
+	float: left;
+	margin: 5px;
+}
+
+.title {
+	text-align: center;
+	color: 
+}
+
+.text-bloco {
+	color: #E0E0E0;
+}
