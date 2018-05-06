@@ -20,7 +20,7 @@ from django.contrib.auth import views as auth_views
 from dashboard import views
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin/', views.header),
     url(r'^login/$', auth_views.login, {'template_name': 'login.html'}, name='login'),
     url(r'^$', views.home)
 ]
