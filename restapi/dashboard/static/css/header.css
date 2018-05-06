@@ -1,0 +1,35 @@
+body {
+	width: 100%;
+	height: auto;
+	font-family: Arial, Verdana, 'Open Sans', sans-serif;
+	}
+
+
+ .header-paralax {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    height: 750px;
+} 
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
