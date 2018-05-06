@@ -149,7 +149,7 @@ function DashboardCtrl($scope,$rootScope,$location,$timeout,$window,$http,env){
 		  getCategoriesExercicios();
 		  getSeriesExercicios();
 	  }, function errorCallback(response) {
-
+	  	vm.erroExercicios = true;
 	  });
 	}
 
@@ -195,7 +195,7 @@ function DashboardCtrl($scope,$rootScope,$location,$timeout,$window,$http,env){
 		  getCategoriesProblemas();
 		  getSeriesProblemas();
 	  }, function errorCallback(response) {
-
+	  	vm.erroProblemas = true;
 	  });
 	}
 

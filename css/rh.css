@@ -26,7 +26,7 @@ body {
     position: absolute;
     background-color: #8AB9B5;
     color: #fff;
-    text-shadow: 2px 3px 1px #000
+    text-shadow: 2px 3px 1px #000;
     font-weight: 900;
     letter-spacing: 20px;
     font-size: 50px;
@@ -38,7 +38,7 @@ body {
  #navbar {
 	position: fixed;
 	overflow: hidden;
-    background-color: #8AB9B5;
+  background-color: #8AB9B5;
  }
  
  /* Navbar links */
@@ -97,7 +97,7 @@ body {
   	font-size: 20px;
   	text-align: center;
   	display: block;
- 	margin: auto;
+ 	  margin: auto;
   	transform: translateY(0%);
   	transition: all 0.5s ease-in .5s;
   	z-index: 2;
@@ -134,7 +134,6 @@ body {
 }
 
 
-
 .bloco {
 	background-color: #E0E0E0;
 	width: 31%;
@@ -142,6 +141,15 @@ body {
 	padding: 15px;
 	border-radius: 10px;
 	}
+
+  .bloco-erro {
+  background-color: #E0E0E0;
+  width: 100%;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  height: 25px !important;
+  }
 
  .bloco-img {
 	width: 60%;
@@ -160,14 +168,15 @@ body {
   height: 400px;
 }
 
-.container-bloco {
-	background-color: #8AB9B5;
-	padding: 30px;
-  	width: 100%;
-  	border-radius: 10px;
-  	margin-bottom: 10px;
-  	margin-top: 15px;
-	}
+  .container-bloco2 {
+  background-color: #8AB9B5;
+  margin: auto 0;
+  padding: 30px;
+  display: inline-block;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
 
 .quebra {
 	display: inline-block;

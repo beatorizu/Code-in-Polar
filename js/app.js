@@ -10,7 +10,7 @@ angular.module('happyWorkspace.services',[]);
 
 angular.module('happyWorkspace.services')
 	.service('env', function() {
-		var constants = {ngrok: "http://863c1aa1.ngrok.io"}
+		var constants = {ngrok: "https://32f20e4e.ngrok.io"}
 
 		return {
 			getConstants: function(){

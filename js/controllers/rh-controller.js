@@ -30,7 +30,7 @@ function RHCtrl($scope,$rootScope,$location,$timeout,$window,$http,env,$routePar
       vm.rawDataPessoas = response.data;
       mountListaPessoas();
     }, function errorCallback(response) {
-
+      vm.erro = true;
     });
   }
 

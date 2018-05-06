@@ -120,6 +120,15 @@ body {
 	border-radius: 10px;
 	}
 
+.card-erro {
+  background-color: #E0E0E0;
+  width: 95%;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  height: 25px !important;
+  }
+
  .bloco-img {
 	width: 60%;
 	background-color: #E0E0E0;

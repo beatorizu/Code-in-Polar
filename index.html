@@ -54,10 +54,16 @@
 			</div>
 			<div class="container-bloco">
 				<div class="bloco-img card-chart">
-					<highchart id="chart1" config="vm.chartProblemasConfig"></highchart>
+					<highchart id="chart1" config="vm.chartProblemasConfig" ng-hide="vm.erroProblemas"></highchart>
+					<div class="card-erro card-info quebra" style="font-size: 20px;" ng-if="vm.erroProblemas">
+						<p>Nenhum dado encontrado</p>
+					</div>
 				</div>
 				<div class="bloco-img card-chart">
-					<highchart id="chart1" config="vm.chartExercicioConfig"></highchart>
+					<highchart id="chart1" config="vm.chartExercicioConfig" ng-hide="vm.erroExercicios"></highchart>
+					<div class="card-erro card-info quebra" style="font-size: 20px;" ng-if="vm.erroExercicios">
+						<p>Nenhum dado encontrado</p>
+					</div>
 				</div>
 			</div>
 		</div>

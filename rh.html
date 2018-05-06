@@ -37,13 +37,16 @@
     	</div>
 		<div class="container">	
 			<h2 class="title" style="	margin-bottom: 10px;">Recursos Humanos</h2>
-			<div class="container-bloco">
+			<div class="container-bloco2">
 				<div class="bloco card-info quebra" ng-repeat="pessoa in vm.pessoas" style="font-size: 20px;">
 					<img ng-src="https://png.icons8.com/color/50/000000/{{vm.icons[pessoa.skill]}}.png">
 					<p>Nome: {{pessoa.nome}}</p>
 					<p>E-mail: {{pessoa.email}}</p>
 				</div>
-			</div>
+				<div class="bloco-erro card-info quebra" style="font-size: 20px;" ng-if="vm.erro">
+					<p>Nenhum contato encontrado</p>
+				</div>
+			</div>			
 		</div>
 	</body>
 </html>
