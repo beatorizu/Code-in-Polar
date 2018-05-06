@@ -5,9 +5,11 @@ body {
 	}
 
 .container {
-	background: #E7E3DA;
+	  background: rgb(231, 227, 218, 0.7);
     position: relative;
     top: 600px;
+    text-align: center;
+    border-top: 6px #ddd solid;
 	}
 
 .header-paralax {
@@ -112,12 +114,19 @@ body {
 
 .bloco {
 	background-color: #E0E0E0;
-	width: 30%;
-	height: 150px;
+	width: 50%;
 	margin: 5px;
 	padding: 15px;
 	border-radius: 10px;
 	}
+
+.card-info {
+  height: 150px;
+}
+
+.card-chart {
+  height: 400px;
+}
 
 .left {
 	margin-left: 5%;
@@ -132,7 +141,18 @@ body {
 	margin: auto;
 	padding: 30px;
 	display: inline-flex;
+  width: 90%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 	}
+
+.container-bloco:first-child {
+  margin-top: 10px;
+}
+
+.container-bloco:last-child {
+  margin-bottom: 50px;
+}
 
 .icon {
 	vertical-align: middle;
@@ -147,4 +167,12 @@ body {
 
 .text-bloco {
 	color: #46494C;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
