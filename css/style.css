@@ -4,10 +4,13 @@ body {
 	font-family: Arial, Verdana, 'Open Sans', sans-serif;
 	}
 
+/* style content */
 .container {
 	max-width: 1200px;
 	margin: auto;
 	}
+
+/*style dos 3 blocos*/	
 
 .bloco {
 	background-color: #46494C;
@@ -32,12 +35,15 @@ body {
 	display: inline-flex;
 	}
 
+/* icones do bloco*/	
+
 .icon {
 	vertical-align: middle;
 	float: left;
 	margin: 5px;
 }
 
+/* titulos do bloco*/
 .title {
 	text-align: center;
 	color: 
