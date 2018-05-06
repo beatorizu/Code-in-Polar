@@ -5,7 +5,7 @@ body {
 	}
 
 .container {
-	  background: rgb(231, 227, 218, 0.7);
+	 background: rgb(231, 227, 218, 0.7);
     position: relative;
     top: 600px;
     text-align: center;
@@ -114,11 +114,20 @@ body {
 
 .bloco {
 	background-color: #E0E0E0;
-	width: 50%;
+	width: 30%;
 	margin: 5px;
 	padding: 15px;
 	border-radius: 10px;
 	}
+
+ .bloco-img {
+	width: 60%;
+	background-color: #E0E0E0;
+	width: 50%;
+	margin: 5px;
+	padding: 15px;
+	border-radius: 10px;
+}
 
 .card-info {
   height: 150px;
@@ -128,22 +137,14 @@ body {
   height: 400px;
 }
 
-.left {
-	margin-left: 5%;
-}	
-
-.right {
-	margin-right: 5%;
-}
-
 .container-bloco {
 	background-color: #8AB9B5;
-	margin: auto;
+	margin: auto 0;
 	padding: 30px;
 	display: inline-flex;
-  width: 90%;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  	width: 80%;
+  	border-radius: 10px;
+  	margin-bottom: 10px;
 	}
 
 .container-bloco:first-child {
@@ -176,3 +177,25 @@ body {
   left: 0;
   z-index: 1030;
 }
+
+@media screen and (max-width: 1200px) {
+	.card-info {
+  		height: 220px;
+}
+
+
+@media screen and (max-width: 900px) {
+	.container-bloco {
+		display: inline-block;
+		margin: auto 0;
+		vertical-align: middle;
+}
+
+	.bloco {
+		width: 90%;
+		height: 150px;
+}
+
+	.bloco-img {
+		width: 90%;
+	}
