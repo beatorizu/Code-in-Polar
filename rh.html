@@ -7,17 +7,19 @@
 	<title>Code in Polar</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/rh.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<script type="text/javascript" src="js/style.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
-	<script type="text/javascript" src="js/controllers/dashboard-controller.js"></script>
+	<script type="text/javascript" src="js/controllers/rh-controller.js"></script>
 
 	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://rawgithub.com/pablojim/highcharts-ng/master/src/highcharts-ng.js"></script>
 
 </head>
-<body ng-controller="DashboardCtrl as vm">
+<body ng-controller="RHCtrl as vm">
 		<header class="header-paralax">
 		<div class="efeito">
  				<figure>
@@ -27,13 +29,13 @@
     		<h1>Happy workplace</h1>
   		</header>
   		<div id="navbar" class="fixed-top">
-      			<a href="#home">Home</a>
-        		<a href="#news">Relatório</a>
-        		<a href="#contact">Contact</a>
-        		<span style="float: right; margin-right: 15px;"><a href="#signout">Sign out</a></span>
+      			<a href="index.html">Home</a>
+        		<a href="">RH</a>
+        		<a href="">Contact</a>
+        		<span style="float: right; margin-right: 15px;"><a href="">Sign out</a></span>
     	</div>
 		<div class="container">	
-			<h2 class="title">Recursos Humanos</h2>
+			<h2 class="title" style="margin-bottom: 10px;">Recursos Humanos</h2>
 			<div class="container-bloco">
 				<div class="bloco card-info quebra">
 					<img src="https://png.icons8.com/color/50/000000/user-female-circle.png">

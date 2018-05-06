@@ -27,10 +27,10 @@
     		<h1>Happy workplace</h1>
   		</header>
   		<div id="navbar" class="fixed-top">
-      			<a href="#home">Home</a>
-        		<a href="#news">Relatório</a>
-        		<a href="#contact">Contact</a>
-        		<span style="float: right; margin-right: 15px;"><a href="#signout">Sign out</a></span>
+      			<a href="">Home</a>
+        		<a href="rh.html">RH</a>
+        		<a href="">Contact</a>
+        		<span style="float: right; margin-right: 15px;"><a href="">Sign out</a></span>
     	</div>
 		<div class="container">	
 			<div class="container-bloco">
@@ -52,11 +52,11 @@
 				</div>
 			</div>
 			<div class="container-bloco">
-				<div class="bloco-img">
-					
+				<div class="bloco-img card-chart">
+					<highchart id="chart1" config="vm.chartProblemasConfig"></highchart>
 				</div>
 				<div class="bloco-img card-chart">
-					<highchart id="chart1" config="vm.chartConfig"></highchart>
+					<highchart id="chart1" config="vm.chartExercicioConfig"></highchart>
 				</div>
 			</div>
 		</div>
