@@ -1,0 +1,30 @@
+body {
+	width: 100%;
+	height: auto;
+	font-family: Arial, Verdana, 'Open Sans', sans-serif;
+	}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	}
+
+.vermelho {
+	background-color: red;
+	width: 30%;
+	height: 150px;
+	display: inline-flex;
+	}
+
+.left {
+	margin-left: 4.5%;
+}	
+
+.right {
+	margin-right: 4.5%;
+}
+
+.azul {
+	background-color: blue;
+	margin: 0 auto;
+	}
